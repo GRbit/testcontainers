@@ -1,7 +1,7 @@
 from invoke import task
 from pathlib import Path
 
-PKG = "github.com/romnn/testcontainers"
+PKG = "github.com/grbit/testcontainers"
 CMD_PKG = PKG
 
 ROOT_DIR = Path(__file__).parent

@@ -1,4 +1,4 @@
-module github.com/romnn/testcontainers
+module github.com/grbit/testcontainers
 
 go 1.20
 

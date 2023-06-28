@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/romnn/deepequal"
-	tc "github.com/romnn/testcontainers"
+	tc "github.com/grbit/testcontainers"
 	"github.com/streadway/amqp"
 )
 

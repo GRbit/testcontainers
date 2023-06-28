@@ -1,7 +1,7 @@
 ## testcontainers, pre-configured
 
-[![GitHub](https://img.shields.io/github/license/romnn/testcontainers)](https://github.com/romnn/testcontainers)
-[![GoDoc](https://godoc.org/github.com/romnn/testcontainers?status.svg)](https://godoc.org/github.com/romnn/testcontainers)
+[![GitHub](https://img.shields.io/github/license/romnn/testcontainers)](https://github.com/grbit/testcontainers)
+[![GoDoc](https://godoc.org/github.com/grbit/testcontainers?status.svg)](https://godoc.org/github.com/grbit/testcontainers)
 [![Test Coverage](https://codecov.io/gh/romnn/testcontainers/branch/master/graph/badge.svg)](https://codecov.io/gh/romnn/testcontainers)
 
 A collection of pre-configured [testcontainers](https://github.com/testcontainers/testcontainers-go) for your golang integration tests.
@@ -28,8 +28,8 @@ import (
 	"log"
 
 	"github.com/go-redis/redis"
-	tc "github.com/romnn/testcontainers"
-	tcredis "github.com/romnn/testcontainers/redis"
+	tc "github.com/grbit/testcontainers"
+	tcredis "github.com/grbit/testcontainers/redis"
 )
 
 func main() {
@@ -86,7 +86,7 @@ import (
 	"log"
 	"time"
 
-	tcmongo "github.com/romnn/testcontainers/mongo"
+	tcmongo "github.com/grbit/testcontainers/mongo"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
