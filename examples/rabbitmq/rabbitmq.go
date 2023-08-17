@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	tc "github.com/romnn/testcontainers"
-	tcrabbitmq "github.com/romnn/testcontainers/rabbitmq"
+	tc "github.com/grbit/testcontainers"
+	tcrabbitmq "github.com/grbit/testcontainers/rabbitmq"
 	"github.com/streadway/amqp"
 )
 

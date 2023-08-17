@@ -8,7 +8,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/romnn/deepequal"
-	tc "github.com/romnn/testcontainers"
+	tc "github.com/grbit/testcontainers"
 )
 
 // TestKafka...

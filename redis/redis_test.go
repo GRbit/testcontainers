@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/go-redis/redis"
-	tc "github.com/romnn/testcontainers"
+	tc "github.com/grbit/testcontainers"
 )
 
 // TestRedis ...
